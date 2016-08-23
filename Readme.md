@@ -1,4 +1,4 @@
-docker-php-fpm
+docker- php-fpm
 ==============
 
 This is my standard base image for php-fpm,
