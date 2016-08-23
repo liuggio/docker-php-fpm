@@ -20,6 +20,7 @@ RUN buildDeps=" \
     gd \
     mbstring \
     mysqli \
+    soap \
     mcrypt \
     mysql \
     pdo_mysql \
