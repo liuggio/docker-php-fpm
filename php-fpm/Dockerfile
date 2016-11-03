@@ -13,6 +13,7 @@ RUN buildDeps=" \
         libmcrypt-dev \
         libxml2-dev \
         freetype* \
+        libfcgi0ldbl \
     "; \
     set -x \
     && apt-get update && apt-get install -y $buildDeps --no-install-recommends && rm -rf /var/lib/apt/lists/* \
