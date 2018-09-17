@@ -1,9 +1,7 @@
 FROM php:7.0-fpm
 
-# Configure
 ENV INSTALLER_VERSION 1.0.0
 
-# Configure PHP
 RUN buildDeps=" \
 libpng-dev \
 libjpeg-dev \
