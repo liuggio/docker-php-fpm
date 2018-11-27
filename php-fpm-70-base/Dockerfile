@@ -17,6 +17,7 @@ set -x \
 gd --with-png-dir=/usr --with-jpeg-dir=/usr --with-freetype-dir \
 && docker-php-ext-install \
 gd \
+calendar \
 mbstring  \
 mcrypt \
 soap \
