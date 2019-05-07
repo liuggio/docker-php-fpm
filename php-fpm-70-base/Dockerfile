@@ -15,7 +15,7 @@ locales \
 set -x \
 && apt-get update && apt-get install -y $buildDeps --no-install-recommends && rm -rf /var/lib/apt/lists/* \
 && docker-php-ext-configure \
-gd --with-png-dir=/usr --with-jpeg-dir=/usr --with-freetype-dir \
+gd --with-png-dir=/usr --with-jpeg-dir=/usr --with-webp-dir=/usr --with-freetype-dir \
 && docker-php-ext-install \
 gd \
 calendar \
