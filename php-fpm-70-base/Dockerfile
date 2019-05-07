@@ -5,6 +5,7 @@ ENV INSTALLER_VERSION 1.0.0
 RUN buildDeps=" \
 libpng-dev \
 libjpeg-dev \
+libwebp-dev \
 libmcrypt-dev \
 libxml2-dev \
 libfreetype6-dev  \
