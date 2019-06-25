@@ -19,6 +19,7 @@ gd --with-png-dir=/usr --with-jpeg-dir=/usr --with-webp-dir=/usr --with-freetype
 && docker-php-ext-install \
 gd \
 calendar \
+intl \
 mbstring  \
 mcrypt \
 soap \
