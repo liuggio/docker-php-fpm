@@ -17,7 +17,7 @@ set -x \
 && docker-php-ext-configure \
 gd --with-png-dir=/usr --with-jpeg-dir=/usr --with-webp-dir=/usr --with-freetype-dir \
 && docker-php-ext-install \
-ext-bcmath \
+bcmath \
 gd \
 calendar \
 intl \
